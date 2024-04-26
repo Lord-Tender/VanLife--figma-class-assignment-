@@ -1,0 +1,849 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.homeBody {
+    height: 71vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+}
+
+.homeBody div {
+    padding: 5%;
+}
+
+.homeBody h1 {
+    font: 4.8rem sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 300;
+}
+
+.homeBody p {
+    font: 1.4rem sans-serif;
+    color: #FFFFFF;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.homeBody button {
+    font: 1.9rem sans-serif;
+    color: #FFFFFF;
+    background-color: #FF8C38;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 55px;
+}
+
+.homeBody img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* display: none; */
+}
+
+.firstImg img {
+    width: 100%;
+    height: 75vh;
+}
+
+.aboutBody {
+    width: 100%;
+    height: 28rem;
+    background-color: #FFF7ED;
+    padding: 5% 4%;
+    display: flex;
+}
+
+.aboutBody h1 {
+    font-size: 2.3rem;
+    text-align: left;
+    font-family: sans-serif;
+    color: #161616;
+    width: 97%;
+}
+
+.aboutBody div {
+    width: 97%;
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: sans-serif;
+    color: #161616;
+    margin-top: 20px;
+}
+
+.aboutLeft {
+    background-color: #FFCC8D;
+    width: 70%;
+    height: 15rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.aboutBody h1 {
+    width: 80%;
+}
+
+.aboutBody button {
+    width: 40%;
+    height: 2.7rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    background-color: #161616;
+}
+
+.aboutBody div> :nth-child(2) {
+    margin-top: 17px;
+}
+
+.aboutBody> :nth-child(1) {
+    width: 50%;
+}
+
+.aboutBody> :nth-child(2) {
+    width: 50%;
+}
+
+/* Van page */
+
+.vanBody {
+    background-color: #FFF7ED;
+    padding-top: 40px;
+    padding-left: 4rem;
+}
+
+.vanHeader h1 {
+    font: 3rem sans-serif;
+}
+
+.vanHeader div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.vanHeader div p {
+    text-decoration: underline 1px;
+    font: 1.1rem sans-serif;
+    color: #4d4d4d;
+    margin-top: 18px;
+}
+
+.vanHeader button {
+    font: .9rem sans-serif;
+    color: #4d4d4d;
+    background-color: #FFEAD0;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 25%;
+}
+
+.vanCard {
+    margin-top: 3rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    gap: 3%;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    row-gap: 2rem;
+}
+
+/* Modest page */
+
+.mdMainSection {
+    background-color: #FFF7ED;
+    padding: 0 4rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.mdMainSection h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.arrowLeft {
+    font-size: 1.3rem;
+}
+
+.mdInnerSection {
+    display: flex;
+}
+
+.mdInnerSection :nth-child(1) {
+    width: 50%;
+}
+
+.mdInnerSection :nth-child(1) img {
+    width: 100%;
+    height: 27rem;
+}
+
+.mdInnerSection :nth-child(1) button {
+    width: 30%;
+    height: 3rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 7px;
+    background-color: #E17654;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+.mdInnerSection :nth-child(2) {
+    width: 50%;
+    padding: 0.7rem;
+    padding-left: 1.3rem;
+}
+
+.mdInnerSection :nth-child(2) h2 {
+    font-size: 3rem;
+    width: 100%;
+}
+
+
+.mdInnerSection :nth-child(2) h3 {
+    font-size: 2.5rem;
+    margin-left: -20px;
+    margin-top: 7px;
+}
+
+.mdInnerSection :nth-child(2) h3 span {
+    font-size: 1.6rem;
+}
+
+.mdInnerSection :nth-child(2) p {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.mdInnerSection :nth-child(2) button {
+    width: 100%;
+    height: 3.5rem;
+    margin: 3rem 0;
+    border: none;
+    border-radius: 7px;
+    background-color: #FF8C38;
+    color: #FFFFFF;
+    font-size: 1.3rem;
+}
+
+
+.notfoundMain{
+    background-color: #FFF7ED;
+    padding: 0 4rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    height: 71vh;
+}
+
+.notfoundMain h1{
+    font-size: 3.5rem;
+    margin-top: 5rem;
+}
+
+.notfoundLink{
+    background-color: #161616;
+    color: #FFFFFF;
+    height: 4rem;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+
+/* Sign in page */
+
+.siMain{
+    background-color: #FFF7ED;
+    padding: 0 4rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    height: 71vh;
+}
+
+.siMain h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.siInput{
+    margin-top: 1.6rem;
+    border: 3px #D1D5DB solid;
+    border-radius: 10px;
+}
+
+.siInput > :nth-child(1){
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.siInput > :nth-child(2){
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top: 3px #D1D5DB solid;
+}
+
+.siInput input{
+    display: block;
+    width: 100%;
+    height: 3.1rem;
+    padding: 0.8rem;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.siInput input::placeholder{
+    font-size: 1rem;
+    /* font-weight: bold; */
+    color: #4D4D4D;
+}
+
+.siMain button{
+    border: none;
+    width: 100%;
+    height: 3.7rem;
+    background-color: #FF8C38;
+    border-radius: 7px;
+    margin-top: 1.5rem;
+    color: #FFF7ED;
+    font-size: 1.2rem;
+}
+
+.siMain p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.siMain p span{
+    color: #FF8C38;
+}
+
+
+/* Host page */
+
+.htPt1{
+    padding: 2.5rem 4rem;
+    background-color: #FFEAD0;
+    height: 16.5rem;
+}
+
+.htPt1 h1{
+    font-size: 3.2rem;
+}
+
+.htPt1 div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.htPt1 div p span{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.htPt1 h2{
+    font-size: 4rem;
+    margin-top: 17px;
+}
+
+.htPt2{
+    padding: 2.5rem 4rem;
+    background-color: #FFDDB2;
+    height: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.htPt2 > :nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.htPt2 > :nth-child(1) p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.htPt2 > :nth-child(1) span{
+    font-size: 2rem;
+    margin-left: 7px;
+}
+
+.htPt2 > :nth-child(1) img{
+    margin-left: 7px;
+}
+
+.htPt2 > :nth-child(2) {
+    font-size: 1.2rem;
+}
+.htPt3{
+    padding: 2.5rem 4rem;
+    background-color: #FFF7ED;
+    height: 60rem;
+}
+.htPt3 > :nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.htPt3 > :nth-child(1) h1 {
+    font-size: 2rem;
+}
+.htPt3 > :nth-child(1) p {
+    font-size: 1.2rem;
+}
+
+
+.listOfVan > :nth-child(1){
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 7px;
+    height: 15rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listOfVan > :nth-child(1) > :nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+.listOfVan > :nth-child(1) img{
+    height: 11.5rem;
+}
+
+.listOfVan > :nth-child(1) h1{
+    margin-top: -20px;
+    font-size: 2.7rem;
+    margin-left: 0.7rem;
+}
+
+.listOfVan > :nth-child(1) p{
+    font-size: 2rem;
+    margin-left: 0.7rem;
+    display: flex;
+}
+
+.listOfVan > :nth-child(1) p span{
+    font-size: 1.5rem;
+    margin-top: 7px;
+}
+
+.listOfVan > :nth-child(1) > :nth-child(2){
+    font-size: 1.2rem;
+}
+
+
+.listOfVan > :nth-child(2){
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 7px;
+    height: 15rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listOfVan > :nth-child(2) img{
+    height: 11.5rem;
+}
+
+.listOfVan > :nth-child(2) > :nth-child(1) {
+    align-items: center;
+    display: flex;
+}
+
+.listOfVan > :nth-child(2) h1{
+    margin-top: -20px;
+    font-size: 2.7rem;
+    margin-left: 0.7rem;
+}
+
+.listOfVan > :nth-child(2) p{
+    font-size: 2rem;
+    margin-left: 0.7rem;
+    display: flex;
+}
+
+.listOfVan > :nth-child(2) p span{
+    font-size: 1.5rem;
+    margin-top: 7px;
+}
+
+.listOfVan > :nth-child(2) > :nth-child(2){
+    font-size: 1.2rem;
+}
+
+
+.listOfVan > :nth-child(3){
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 7px;
+    height: 15rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listOfVan > :nth-child(3) > :nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+.listOfVan > :nth-child(3) img{
+    height: 11.5rem;
+}
+
+.listOfVan > :nth-child(3) h1{
+    margin-top: -20px;
+    font-size: 2.7rem;
+    margin-left: 0.7rem;
+}
+
+.listOfVan > :nth-child(3) p{
+    font-size: 2rem;
+    margin-left: 0.7rem;
+    display: flex;
+}
+
+.listOfVan > :nth-child(3) p span{
+    font-size: 1.5rem;
+    margin-top: 7px;
+}
+
+.listOfVan > :nth-child(3) > :nth-child(2){
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+    .listOfVan > :nth-child(1){
+        padding: 1rem;
+        height: 9rem;
+        margin-top: 2rem;
+    }
+    
+    .listOfVan > :nth-child(1) img{
+        height: 6rem;
+    }
+    
+    .listOfVan > :nth-child(1) h1{
+        font-size: 0.9rem;
+        margin-left: 0.7rem;
+        margin-top: 0px;
+    }
+    
+    .listOfVan > :nth-child(1) p{
+        font-size: 0.8rem;
+        margin-left: 0.7rem;
+    }
+    .listOfVan > :nth-child(1) p span{
+        font-size: .5rem;
+        margin-top: 4px;
+    }
+    .listOfVan > :nth-child(1) > :nth-child(2){
+        font-size: 1rem;
+    }
+
+
+
+    .htPt3 > :nth-child(1) h1 {
+        font-size: 1.2rem;
+    }
+    .htPt3 > :nth-child(1) p {
+        font-size: 1rem;
+    }
+    .htPt3{
+        padding: 1rem 1rem;
+        height: 38rem;
+    }
+    .htPt2{
+        padding: 1rem 1rem;
+        height: 6rem;
+    }
+    .htPt2 > :nth-child(1) p {
+        font-size: 1.2rem;
+    }
+    
+    .htPt2 > :nth-child(1) span{
+        font-size: 1.1rem;
+        margin-left: 7px;
+    }
+    
+    .htPt2 > :nth-child(2) {
+        font-size: 1rem;
+    }
+    .htPt1{
+        padding: 1rem 1rem;
+        height: 10rem;
+    }
+    .htPt1 h1{
+        font-size: 1.7rem;
+    }
+    .htPt1 h2{
+        font-size: 2rem;
+        margin-top: 17px;
+    }
+    .htPt1 div{
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    .siMain{
+        padding: 0 1rem;
+    }
+    .siMain h1{
+        font-size: 1.2rem;
+    }
+    .siMain p{
+        font-size: 1.1rem;
+    }
+    .siMain button{
+        margin-top: 2.3rem;
+    }
+    .homeBody h1 {
+        font: 1.6rem sans-serif;
+        color: #FFFFFF;
+        text-align: left;
+    }
+
+    .homeBody p {
+        font: .6rem sans-serif;
+        color: #FFFFFF;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .homeBody button {
+        font: .6rem sans-serif;
+        color: #FFFFFF;
+        margin: 0;
+        background-color: #FF8C38;
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .homeBody div {
+        padding: 30% 8%;
+    }
+
+    .firstImg img {
+        width: 100%;
+        height: 13rem;
+    }
+
+    .aboutBody {
+        flex-direction: column;
+        padding: 2% 5%;
+    }
+
+    .aboutBody> :nth-child(1) {
+        width: 100%;
+    }
+
+    .aboutBody> :nth-child(2) {
+        width: 100%;
+    }
+
+    .aboutBody h1 {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .aboutBody div {
+        font-size: 0.8rem;
+    }
+
+    .aboutLeft {
+        height: 13rem;
+    }
+
+    .aboutBody button {
+        width: 50%;
+        font-size: 0.8rem;
+    }
+
+    .vanBody {
+        padding-left: 1rem;
+        padding-top: 10px;
+    }
+
+    .vanHeader h1 {
+        font: 1.3rem sans-serif;
+    }
+
+    .vanHeader div {
+        gap: .8rem;
+        width: 95%;
+        height: 2.8rem;
+    }
+
+    .vanHeader button {
+        font: .9rem sans-serif;
+        width: 25%;
+    }
+
+    .vanHeader div p {
+        text-decoration: underline 1px;
+        font: .8rem sans-serif;
+        width: 25%;
+    }
+
+    .mdMainSection {
+        padding: 0 1rem;
+    }
+
+    .mdInnerSection {
+        flex-direction: column;
+    }
+
+    .mdInnerSection :nth-child(1) {
+        width: 100%;
+    }
+
+    .mdInnerSection :nth-child(2) {
+        width: 100%;
+    }
+    .mdMainSection h1 {
+        font-size: 1.2rem;
+    }
+    
+    .arrowLeft {
+        font-size: 0.8rem;
+    }
+    .mdInnerSection :nth-child(2) h2 {
+        margin-top: 1rem;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .mdInnerSection :nth-child(2) {
+        padding: 0;
+    }
+    .mdInnerSection :nth-child(1) img {
+        width: 100%;
+        height: 20rem;
+    }
+    
+    
+    .mdInnerSection :nth-child(2) h3 {
+        font-size: 1.7rem;
+        margin-left: 0px;
+        margin-top: 7px;
+    }
+    
+    .mdInnerSection :nth-child(2) h3 span {
+        font-size: 1.4rem;
+    }
+    
+    .mdInnerSection :nth-child(2) p {
+        font-size: 1.1rem;
+    }
+    
+    .mdInnerSection :nth-child(2) button {
+        height: 3.2rem;
+        font-size: 1.1rem;
+    }
+
+
+
+    .notfoundMain{
+        padding: 2rem;
+    }
+    
+    .notfoundMain h1{
+        font-size: 1.5rem;
+        margin-top: 5rem;
+    }
+    
+    .notfoundLink{
+        background-color: #161616;
+        color: #FFFFFF;
+        height: 4rem;
+        width: 100%;
+        border: none;
+        border-radius: 7px;
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+
+
+    .listOfVan > :nth-child(2){
+        padding: 1rem;
+        height: 9rem;
+        margin-top: 2rem;
+    }
+    
+    .listOfVan > :nth-child(2) img{
+        height: 6rem;
+    }
+    
+    .listOfVan > :nth-child(2) h1{
+        font-size: 0.9rem;
+        margin-left: 0.7rem;
+        margin-top: 0px;
+    }
+    
+    .listOfVan > :nth-child(2) p{
+        font-size: 0.8rem;
+        margin-left: 0.7rem;
+    }
+    .listOfVan > :nth-child(2) p span{
+        font-size: .5rem;
+        margin-top: 4px;
+    }
+    .listOfVan > :nth-child(2) > :nth-child(2){
+        font-size: 1rem;
+    }
+
+    .listOfVan > :nth-child(3){
+        padding: 1rem;
+        height: 9rem;
+        margin-top: 2rem;
+    }
+    
+    .listOfVan > :nth-child(3) img{
+        height: 6rem;
+    }
+    
+    .listOfVan > :nth-child(3) h1{
+        font-size: 0.9rem;
+        margin-left: 0.7rem;
+        margin-top: 0px;
+    }
+    
+    .listOfVan > :nth-child(3) p{
+        font-size: 0.8rem;
+        margin-left: 0.7rem;
+    }
+    .listOfVan > :nth-child(3) p span{
+        font-size: .5rem;
+        margin-top: 4px;
+    }
+    .listOfVan > :nth-child(3) > :nth-child(2){
+        font-size: 1rem;
+    }
+}

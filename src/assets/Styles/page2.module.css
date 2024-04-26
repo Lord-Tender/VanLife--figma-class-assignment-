@@ -1,0 +1,385 @@
+.hostVan {
+    height: 100%;
+    background-color: #FFF7ED;
+
+}
+
+/* Host Review page */
+
+.hostReview {
+    height: 71vh;
+    background-color: #FFF7ED;
+    padding: 0 4rem;
+    display: flex;
+}
+
+.hostReviewHeader1 {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.hostReviewHeader1 h1 {
+    font-size: 2.6rem;
+}
+
+.hostReviewHeader1 p span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.hostReviewHeader1 p {
+    font-size: 1.2rem;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.hostReview> :nth-child(1) div img {
+    width: 95%;
+    margin-top: 50px;
+}
+
+.hostReview> :nth-child(1) {
+    width: 50%;
+}
+
+.hostReview> :nth-child(2) {
+    width: 50%;
+}
+
+.side2 h1 {
+    margin-bottom: 25px;
+}
+
+.review1 {
+    border-bottom: 1px #B9B9B9 solid;
+    padding-bottom: 25px;
+}
+
+.review1 div {
+    margin-bottom: 15px;
+}
+
+.review1 div img {
+    margin-right: 5px;
+}
+
+.review1 h2 {
+    margin-bottom: 15px;
+}
+
+.review1 h2 span {
+    color: #8C8C8C;
+}
+
+.review2 {
+    padding: 25px 0;
+    border-bottom: 1px #B9B9B9 solid;
+}
+
+.review2 div img {
+    margin-right: 5px;
+}
+
+.review2 div {
+    margin-bottom: 15px;
+}
+
+.review2 h2 span {
+    color: #8C8C8C;
+}
+
+.review2 h2 {
+    margin-bottom: 15px;
+}
+
+
+/* Host Income page*/
+
+.hostIncome {
+    height: 100%;
+    background-color: #FFF7ED;
+    padding: 0 4rem;
+    padding-bottom: 3rem;
+}
+
+.hostIncome>h1 {
+    font-size: 3rem;
+}
+
+.hostIncomeInner {
+    display: flex;
+}
+
+.hostIncomeInner> :nth-child(1),
+.hostIncomeInner> :nth-child(2) {
+    width: 50%;
+}
+
+.hostIncomeInner> :nth-child(1) p {
+    font-size: 1.2rem;
+    margin-top: 0.9rem;
+}
+
+.hostIncomeInner> :nth-child(1) img {
+    width: 90%;
+    margin-top: 1.5rem;
+    height: 20rem;
+}
+
+.hostIncomeInner> :nth-child(1) h1 {
+    font-size: 2rem;
+    margin-top: 0.7rem;
+}
+
+.hostIncomeInner> :nth-child(1) p span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.hostIncomeInnerRightSide> :nth-child(1) {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hostIncomeInnerRightSide> :nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 7px;
+    margin-top: 1rem;
+}
+
+.hostIncomeInnerRightSide> :nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 7px;
+    margin-top: 1rem;
+}
+
+.hostIncomeInnerRightSide> :nth-child(4) {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border-radius: 7px;
+    margin-top: 1rem;
+}
+
+.hostVanDetail{
+    height: 100%;
+    background-color: #FFF7ED;
+    padding: 0 4rem;
+    padding-bottom: 4rem;
+}
+
+.hostVanDetail > p{
+    font-size: 2rem;
+    color: black;
+    padding-bottom: 4rem;
+}
+
+.whiteSpaceHostVanDetail{
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    padding: 2rem;
+}
+
+.whiteSpaceHostVanDetail> :nth-child(1){
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.whiteSpaceHostVanDetail> :nth-child(1) button{
+    background-color: #E17654;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    height: 2.5rem;
+    width: 170px;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.whiteSpaceHostVanDetail> :nth-child(1) h1{
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.whiteSpaceHostVanDetail> :nth-child(1) p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    /* margin-bottom: 0.5rem; */
+}
+
+.whiteSpaceHostVanDetail> :nth-child(3) p{
+    font-size: 1.4rem;
+    padding-bottom: 1.2rem;
+}
+
+.whiteSpaceHostVanDetail> :nth-child(3) h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+.whiteSpaceHostVanDetail> :nth-child(3) h1 span{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+
+.whiteSpaceHostVanDetail> :nth-child(1) p span{
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 480px) {
+    .thePadding{
+        padding: 5vh;
+    }
+    .whiteSpaceHostVanDetail> :nth-child(3) img{
+        width: 40%;
+    }
+
+    .whiteSpaceHostVanDetail> :nth-child(3) h1{
+        font-size: 1.8rem;
+    }
+    
+    .whiteSpaceHostVanDetail> :nth-child(3) h1 span{
+        font-size: 1.5rem;
+    }
+    .whiteSpaceHostVanDetail> :nth-child(3) p{
+        font-size: 0.95rem;
+        padding-bottom: .5rem;
+    }
+    .whiteSpaceHostVanDetail> :nth-child(1){
+        gap: 0.5rem;
+    }
+    
+    .whiteSpaceHostVanDetail> :nth-child(1) img{
+        width: 100%;
+    }
+    .whiteSpaceHostVanDetail> :nth-child(1) > :nth-child(1){
+        width: 45%;
+    }
+    .whiteSpaceHostVanDetail> :nth-child(1) button{
+        border: none;
+        height: 1.7rem;
+        width: 60px;
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .whiteSpaceHostVanDetail> :nth-child(1) h1{
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .whiteSpaceHostVanDetail> :nth-child(1) p{
+        font-size: 0.9rem;
+    }
+    .whiteSpaceHostVanDetail> :nth-child(1) p span{
+        font-size: 0.7rem;
+    }
+    .whiteSpaceHostVanDetail{
+        padding: 1.3rem;
+    }
+    .hostVanDetail{
+        padding: 0 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    .hostVanDetail > p{
+        font-size: 1rem;
+        color: black;
+        padding-bottom: 2.3rem;
+    }
+
+
+
+
+    .hostIncomeInnerRightSide> :nth-child(1) h1 {
+        font-size: 1.2rem;
+    }
+
+    .hostIncomeInnerRightSide> :nth-child(1) p {
+        font-size: 1rem;
+    }
+
+    .hostIncomeInnerRightSide> :nth-child(4) {
+        margin-bottom: 2rem;
+    }
+
+    .hostIncomeInnerRightSide> :nth-child(1) {
+        margin-top: 0;
+    }
+
+    .hostIncomeInner> :nth-child(1) img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .hostIncomeInner> :nth-child(1),
+    .hostIncomeInner> :nth-child(2) {
+        width: 100%;
+    }
+
+    .hostIncomeInner {
+        flex-direction: column;
+    }
+
+    .hostIncome {
+        padding: 0 1rem;
+    }
+
+    .hostReview {
+        flex-direction: column;
+    }
+
+    .hostReview> :nth-child(1) {
+        width: 100%;
+    }
+
+    .hostReview> :nth-child(2) {
+        width: 100%;
+    }
+
+    .hostReview {
+        padding: 0 1rem;
+        height: 100%;
+    }
+
+    .hostReviewHeader1 h1 {
+        font-size: 1.3rem;
+        margin-top: 0.7rem;
+    }
+
+    .hostReviewHeader1 p {
+        font-size: 0.9rem;
+        margin-left: 12px;
+        margin-top: 15px;
+    }
+
+    .side2 h1 {
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+
+    .hostReviewHeader1 {
+        margin-top: 0rem;
+    }
+
+    .hostReview> :nth-child(1) div img {
+        margin-top: 20px;
+    }
+}
